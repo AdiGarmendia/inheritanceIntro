@@ -11,6 +11,14 @@ namespace inhiritanceIntro {
             var myTesla = new Tesla ();
             myTesla.MainColor = "Silver";
             myTesla.MaxOccupancy = 6;
+
+            var myRam = new Ram ();
+            var myCessna = new Cessna ();
+
+            myBike.Drive ();
+            myTesla.Drive ();
+            myRam.Drive ();
+            myCessna.Drive ();
         }
     }
 }
